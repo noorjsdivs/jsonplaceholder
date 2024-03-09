@@ -39,10 +39,11 @@ const Resources = () => {
       </p>
       <div className="my-5 flex flex-col gap-y-2">
         {resourcesArray.map((item) => (
-          <div className="flex items-center w-72 justify-between">
-            <Link key={item?.href} href={item?.href}>
-              {item?.href}
-            </Link>
+          <div
+            key={item?.href}
+            className="flex items-center w-72 justify-between"
+          >
+            <Link href={item?.href}>{item?.href}</Link>
             <p className="text-left w-32">{item?.total}</p>
           </div>
         ))}
