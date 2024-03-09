@@ -12,7 +12,7 @@ const Testing = () => {
         Run this code here, in a console or from any site:
       </p>
       <div className="bg-[#263E52] p-10 w-full rounded-lg">
-        <p className="text-yellow-100 tracking-wider mb-.5 flex flex-wrap">
+        <p className="text-yellow-100 tracking-wider mb-.5 flex flex-wrap ">
           <span className="text-sky-300">fetch</span>
           {`('https://jsonplaceholder.typicode.com/todos/1')`}
         </p>
