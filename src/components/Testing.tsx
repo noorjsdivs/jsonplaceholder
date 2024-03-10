@@ -14,7 +14,7 @@ const Testing = () => {
       <div className="bg-[#263E52] p-10 w-full rounded-lg">
         <p className="text-yellow-100 tracking-wider mb-.5 flex flex-wrap ">
           <span className="text-sky-300">fetch</span>
-          {`(&#x27;https://jsonplaceholder.typicode.com/todos/1&#x27;)`}
+          &#x27;{`(https://jsonplaceholder.typicode.com/todos/1)`}&#x27;
         </p>
         <p className="text-gray-100 tracking-wider ml-10 mb-.5">
           <span className="text-sky-300">.then</span>
@@ -40,15 +40,21 @@ const Testing = () => {
           <div>
             <p>{`{`}</p>
             <p className="ml-5">
-              <span className="text-red-500 font-semibold">{`&quot;userId&quot;`}</span>
+              <span className="text-red-500 font-semibold">
+                &quot;{`userId`}&quot;
+              </span>
               : <span className="text-purple-500 font-semibold">1</span>,
             </p>
             <p className="ml-5">
-              <span className="text-red-500 font-semibold">{`&quot;id&quot;`}</span>
+              <span className="text-red-500 font-semibold">
+                &quot;{`id`}&quot;
+              </span>
               : <span className="text-purple-500 font-semibold">1</span>,
             </p>
             <p className="ml-5">
-              <span className="text-red-500 font-semibold">{`&quot;title&quot;`}</span>
+              <span className="text-red-500 font-semibold">
+                &quot;{`title`}&quot;
+              </span>
               :{" "}
               <span className="text-yellow-100 font-medium">
                 &quot;delectus aut autem&quot;
@@ -56,7 +62,9 @@ const Testing = () => {
               ,
             </p>
             <p className="ml-5">
-              <span className="text-red-500 font-semibold">{`&quot;completed&quot;`}</span>
+              <span className="text-red-500 font-semibold">
+                &quot;{`completed`}&quot;
+              </span>
               : <span className="text-purple-500 font-semibold">false</span>,
             </p>
             <p>{`}`}</p>
