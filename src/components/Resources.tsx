@@ -5,7 +5,7 @@ import Link from "next/link";
 
 const resourcesArray = [
   {
-    href: "/posts",
+    href: "/api/posts",
     total: "100 posts",
   },
   {
