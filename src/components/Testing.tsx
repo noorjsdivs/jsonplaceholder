@@ -67,7 +67,7 @@ const Testing = () => {
       </div>
       {test && (
         <p className="text-sm font-medium mt-5">
-          Congrats! You've made your first call to JSONPlaceholder. 😃 🎉
+          Congrats! You&apos;ve made your first call to JSONPlaceholder. 😃 🎉
         </p>
       )}
     </Container>
