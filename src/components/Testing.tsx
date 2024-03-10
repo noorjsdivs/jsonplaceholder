@@ -14,20 +14,19 @@ const Testing = () => {
       <div className="bg-[#263E52] p-10 w-full rounded-lg">
         <p className="text-yellow-100 tracking-wider mb-.5 flex flex-wrap ">
           <span className="text-sky-300">fetch</span>
-          {`('https://jsonplaceholder.typicode.com/todos/1')`}
+          {`(&#x27;https://jsonplaceholder.typicode.com/todos/1&#x27;)`}
         </p>
         <p className="text-gray-100 tracking-wider ml-10 mb-.5">
           <span className="text-sky-300">.then</span>
-          {`(response => response.`}
+          {`((response => response.`}
           <span className="text-sky-300">json</span>
-          {`())`}
+          {`()))`}
         </p>
         <p className="text-gray-100 tracking-wider ml-10">
           <span className="text-sky-300">.then</span>
-          {`(json => console.`}
+          {`((json => console.`}
           <span className="text-sky-300">log</span>
-          {`(json))
-`}
+          {`(json))`}
         </p>
       </div>
       <button
@@ -41,22 +40,23 @@ const Testing = () => {
           <div>
             <p>{`{`}</p>
             <p className="ml-5">
-              <span className="text-red-500 font-semibold">{`"userId"`}</span>:{" "}
-              <span className="text-purple-500 font-semibold">1</span>,
+              <span className="text-red-500 font-semibold">{`&quot;userId&quot;`}</span>
+              : <span className="text-purple-500 font-semibold">1</span>,
             </p>
             <p className="ml-5">
-              <span className="text-red-500 font-semibold">{`"id"`}</span>:{" "}
-              <span className="text-purple-500 font-semibold">1</span>,
+              <span className="text-red-500 font-semibold">{`&quot;id&quot;`}</span>
+              : <span className="text-purple-500 font-semibold">1</span>,
             </p>
             <p className="ml-5">
-              <span className="text-red-500 font-semibold">{`"title"`}</span>:{" "}
+              <span className="text-red-500 font-semibold">{`&quot;title&quot;`}</span>
+              :{" "}
               <span className="text-yellow-100 font-medium">
-                "delectus aut autem"
+                &quot;delectus aut autem&quot;
               </span>
               ,
             </p>
             <p className="ml-5">
-              <span className="text-red-500 font-semibold">{`"completed"`}</span>
+              <span className="text-red-500 font-semibold">{`&quot;completed&quot;`}</span>
               : <span className="text-purple-500 font-semibold">false</span>,
             </p>
             <p>{`}`}</p>
