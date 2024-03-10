@@ -5,11 +5,11 @@ import Link from "next/link";
 
 const resourcesArray = [
   {
-    href: "/posts",
+    href: "/api/posts",
     total: "GET",
   },
   {
-    href: "/posts/1",
+    href: "/api/posts/1",
     total: "GET",
   },
   {

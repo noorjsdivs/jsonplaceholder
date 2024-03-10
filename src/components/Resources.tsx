@@ -48,6 +48,11 @@ const Resources = () => {
           </div>
         ))}
       </div>
+      <p className="text-sm tracking-wide">
+        <span className="font-bold">Note</span>: resources have relations. For
+        example: posts have many comments, albums have many photos, ... see{" "}
+        <span className="underline">guide</span> for the full list.
+      </p>
     </Container>
   );
 };
