@@ -613,7 +613,7 @@ const data = [
 
 export const GET = () => {
   return NextResponse.json({
-    message: "Api reached successfully!",
+    message: "Connection established successfully!",
     success: true,
     data: data,
   });

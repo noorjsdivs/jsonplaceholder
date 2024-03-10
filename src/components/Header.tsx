@@ -20,6 +20,10 @@ const navigation = [
     title: "My JSON Server",
     href: "/server",
   },
+  {
+    title: "Playground",
+    href: "/playground",
+  },
 ];
 
 const Header = () => {

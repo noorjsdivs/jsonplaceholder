@@ -9,23 +9,23 @@ const resourcesArray = [
     total: "100 posts",
   },
   {
-    href: "/comments",
+    href: "/api/comments",
     total: "500 comments",
   },
   {
-    href: "/albums",
+    href: "/api/albums",
     total: "100 albums",
   },
   {
-    href: "/photos",
+    href: "/api/photos",
     total: "5000 photos",
   },
   {
-    href: "/todos",
+    href: "/api/todos",
     total: "200 todos",
   },
   {
-    href: "/users",
+    href: "/api/users",
     total: "10 users",
   },
 ];
