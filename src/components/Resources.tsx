@@ -5,26 +5,32 @@ import Link from "next/link";
 
 const resourcesArray = [
   {
+    title: "/posts",
     href: "/api/posts",
     total: "100 posts",
   },
   {
+    title: "/comments",
     href: "/api/comments",
     total: "500 comments",
   },
   {
+    title: "/albums",
     href: "/api/albums",
     total: "100 albums",
   },
   {
+    title: "/photos",
     href: "/api/photos",
     total: "5000 photos",
   },
   {
+    title: "/todos",
     href: "/api/todos",
     total: "200 todos",
   },
   {
+    title: "/users",
     href: "/api/users",
     total: "10 users",
   },
@@ -43,7 +49,7 @@ const Resources = () => {
             key={item?.href}
             className="flex items-center w-72 justify-between"
           >
-            <Link href={item?.href}>{item?.href}</Link>
+            <Link href={item?.href}>{item?.title}</Link>
             <p className="text-left w-32">{item?.total}</p>
           </div>
         ))}
